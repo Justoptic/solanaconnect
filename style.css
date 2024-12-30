@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(43, 19, 75);
+    padding: 10px 20px;
+
+}
+
+#navlogo {
+    display: flex;
+    list-style: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.solabox {
+    background-color: rgb(95, 40, 146);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
